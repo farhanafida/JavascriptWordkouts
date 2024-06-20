@@ -107,23 +107,23 @@
 
 // class program in javascript example
 
-class Student{
-    name
-    age
-    place
-    constructor(name,age,place){
-        this.name=name
-        this.age=age
-        this.place=place
-    }
-    getPlace() {
-        console.log(this.place)
-    }
-    static giveAge(){
-            console.log(age)
-        }
-    }
+// class Student{
+//     name
+//     age
+//     place
+//     constructor(name,age,place){
+//         this.name=name
+//         this.age=age
+//         this.place=place
+//     }
+//     getPlace() {
+//         console.log(this.place)
+//     }
+//     static giveAge(){
+//             console.log(age)
+//         }
+//     }
 
-let std=new Student('ashkar',23,'purakkad')
-std.getPlace()
-Student.giveAge()
+// let std=new Student('ashkar',23,'purakkad')
+// std.getPlace()
+// Student.giveAge()
