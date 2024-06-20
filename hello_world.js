@@ -127,3 +127,11 @@
 // let std=new Student('ashkar',23,'purakkad')
 // std.getPlace()
 // Student.giveAge()
+
+values=[1,2,3,4]
+values.forEach(function (i){
+    console.log('hey',i)
+})
+values.forEach(element => {
+    console.log('hello',element)
+});
