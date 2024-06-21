@@ -14,8 +14,40 @@
 // val[0].style.background='red'
 // val[0].style.color='white'
 
-let val=document.getElementsByName('text')[0]
-let change=document.getElementById('values')
-function message(){
-    change.innerHTML=val.value
+// let val=document.getElementsByName('text')[0]
+// let change=document.getElementById('values')
+// function message(){
+//     change.innerHTML=val.value
+// }
+
+// let c=document.createElement('h1')
+
+// function create(){
+//     c.innerHTML = 'hey how are you?';
+//     document.body.appendChild(c)
+// }
+
+// function remove(){
+//     c.remove()
+// }
+
+// let b=document.getElementById('btn');
+// let h=document.getElementById('head_bottom');
+
+// b.addEventListener('click',colorfn);
+
+// function colorfn(){
+//     h.style.color= 'red'
+// }
+
+// h.addEventListener('mouseover',Bg);
+// function Bg(){
+//     h.style.background='green'
+// }
+
+
+
+function change(){
+    let val=document.getElementById('selectForm').value;
+    alert('you selected '+ val)
 }
