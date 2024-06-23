@@ -3,14 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ListVal from './comp/listFn';
+import Label from './comp/classComp';
+import Message from './comp/changeState';
 
-const a= <div id='ashkar'> <h1>Hello world</h1></div>
+const name=['ashkar','shameem','ajnas','rahel']
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  a,
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <div>
+      {/* <ListVal name='ashkar' surname='madathil' > <span> This is an example of child props</span> </ListVal>
+      <ListVal name='ajnas' surname='tadathil' />
+      <ListVal name='shameem' surname='kulathil' />
+      <ListVal name='sabith' surname='padannayil' />
+      <Label name='ashkar' surname='madathil' /> */}
+      <Message/>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
