@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import ListVal from './comp/listFn';
 import Label from './comp/classComp';
 import Message from './comp/changeState';
+import Counter from './comp/counterApp';
+import CounterHook from './comp/useStateHook';
+import UseStateHookSample from './comp/useStateHook2';
 
 const name=['ashkar','shameem','ajnas','rahel']
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +19,14 @@ root.render(
       <ListVal name='shameem' surname='kulathil' />
       <ListVal name='sabith' surname='padannayil' />
       <Label name='ashkar' surname='madathil' /> */}
-      <Message/>
+      {/* <Message/> */}
+      {/* <Counter />
+      <section >
+        <h1></h1>
+      </section>
+
+      <CounterHook /> */}
+      <UseStateHookSample />
     </div>
 );
 
