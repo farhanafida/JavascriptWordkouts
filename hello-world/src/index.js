@@ -9,11 +9,14 @@ import Message from './comp/changeState';
 import Counter from './comp/counterApp';
 import CounterHook from './comp/useStateHook';
 import UseStateHookSample from './comp/useStateHook2';
+import FunctionalComponent from './sampleProblems/functional';
+import ClassComp from './sampleProblems/classComp';
 
-const name=['ashkar','shameem','ajnas','rahel']
+const name1=['ashkar','shameem','ajnas','rahel']
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
+      {/* <FunctionalComponent name={name1} /> */}
       {/* <ListVal name='ashkar' surname='madathil' > <span> This is an example of child props</span> </ListVal>
       <ListVal name='ajnas' surname='tadathil' />
       <ListVal name='shameem' surname='kulathil' />
@@ -26,7 +29,12 @@ root.render(
       </section>
 
       <CounterHook /> */}
-      <UseStateHookSample />
+      {/* <UseStateHookSample /> */}
+
+      {/* <ClassComp/> */}
+
+      <Counter/>
+      
     </div>
 );
 
