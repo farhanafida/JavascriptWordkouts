@@ -9,7 +9,6 @@ function ProbsSample(probs) {
       <p>
       {user ? <p>hey</p> : <p>nice</p>}
       </p>
-
     </div>
   )
 }

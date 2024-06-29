@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ProbsSample from './sample/passing probs';
+// import ProbsSample from './sample/passing probs';
+// import ClassConstructor from './sample/classConstructor';
+// import Keys from './sample/keys';
+// import CounterFn from './sample/CounterFn';
+import CounterClass from './sample/CounterClass';
+import EffectSample from './sample/EffectSample';
 
 const person={
     name:'ashkar',
@@ -16,7 +21,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
     <div>
-            <ProbsSample details={person} />
+            {/* <ProbsSample details={person} /> */}
+            {/* <ClassConstructor/> */}
+            {/* <Keys/> */}
+            {/* <CounterFn/> */}
+            {/* <CounterClass/> */}
+            <EffectSample/>
+            
     </div>
   
 );
