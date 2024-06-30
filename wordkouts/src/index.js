@@ -27,6 +27,7 @@ root.render(
             {/* <CounterFn/> */}
             {/* <CounterClass/> */}
             <EffectSample/>
+            {/* <App/> */}
             
     </div>
   
