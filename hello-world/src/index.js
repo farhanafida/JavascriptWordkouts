@@ -11,12 +11,13 @@ import CounterHook from './comp/useStateHook';
 import UseStateHookSample from './comp/useStateHook2';
 import FunctionalComponent from './sampleProblems/functional';
 import ClassComp from './sampleProblems/classComp';
+import Form from './AssignmentWorkout/form';
 
 const name1=['ashkar','shameem','ajnas','rahel']
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-      <FunctionalComponent name={name1} />
+      {/* <FunctionalComponent name={name1} /> */}
       {/* <ListVal name='ashkar' surname='madathil' > <span> This is an example of child props</span> </ListVal>
       <ListVal name='ajnas' surname='tadathil' />
       <ListVal name='shameem' surname='kulathil' />
@@ -33,7 +34,10 @@ root.render(
 
       {/* <ClassComp/> */}
 
-      <Counter/>
+      {/* <Counter/>
+      <App/> */}
+
+      <Form/>
       
     </div>
 );

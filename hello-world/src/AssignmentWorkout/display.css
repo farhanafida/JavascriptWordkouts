@@ -1,0 +1,15 @@
+.display{
+    align-self: center;
+    background-color: lightblue;
+    color: black;
+    height: 10rem;
+    width: 50rem;
+    align-items: center;
+}
+h1{
+    align-items: center;
+    text-align: center;
+}
+
+
+

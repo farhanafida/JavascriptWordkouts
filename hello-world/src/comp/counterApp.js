@@ -23,6 +23,9 @@ class Counter extends Component{
             })
         )
     }
+    clear(){
+        this.setState({count:0})
+    }
 
     render(){
         return(
@@ -32,6 +35,7 @@ class Counter extends Component{
                 </h1>
                 <button onClick={()=> this.incrementCounter()}>Plus</button>
                 <button onClick={()=> this.decrementCounter()} >Minus</button>
+                <button onClick={()=> this.clear()} >Clear</button>
             </div>
         )
     }
