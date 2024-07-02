@@ -37,7 +37,8 @@ root.render(
       {/* <Counter/>
       <App/> */}
 
-      <Form/>
+      {/* <Form/> */}
+      <App/>
       
     </div>
 );
