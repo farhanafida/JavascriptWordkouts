@@ -9,13 +9,20 @@ class ClassConstructor extends Component {
       }
     }
 
+    incCount(){
+      this.setState(
+        (prevState)=>({
+            count:prevState.count+1
+        }))
+    }
+
     
     
   render() {
     return (
       <div>
         <h1>Here print count: {this.state.count} </h1>
-        <button onClick={()=> this.incCount}>click</button>
+        <button onClick={()=> this.incCount()}>click</button>
         
       </div>
     )

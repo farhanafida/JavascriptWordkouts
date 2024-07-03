@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import ProbsSample from './sample/passing probs';
-// import ClassConstructor from './sample/classConstructor';
+import ClassConstructor from './sample/classConstructor';
 // import Keys from './sample/keys';
 // import CounterFn from './sample/CounterFn';
 import CounterClass from './sample/CounterClass';
@@ -22,11 +22,11 @@ root.render(
 
     <div>
             {/* <ProbsSample details={person} /> */}
-            {/* <ClassConstructor/> */}
+            <ClassConstructor/>
             {/* <Keys/> */}
             {/* <CounterFn/> */}
             {/* <CounterClass/> */}
-            <EffectSample/>
+            {/* <EffectSample/> */}
             {/* <App/> */}
             
     </div>
