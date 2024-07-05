@@ -12,6 +12,7 @@ import UseStateHookSample from './comp/useStateHook2';
 import FunctionalComponent from './sampleProblems/functional';
 import ClassComp from './sampleProblems/classComp';
 import Form from './AssignmentWorkout/form';
+import LifeCycleHook from './Hooks/lifeCycleHook';
 
 const name1=['ashkar','shameem','ajnas','rahel']
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,6 +40,7 @@ root.render(
 
       {/* <Form/> */}
       <App/>
+      {/* <LifeCycleHook/> */}
       
     </div>
 );
