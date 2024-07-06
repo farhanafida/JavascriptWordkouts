@@ -13,6 +13,7 @@ import FunctionalComponent from './sampleProblems/functional';
 import ClassComp from './sampleProblems/classComp';
 import Form from './AssignmentWorkout/form';
 import LifeCycleHook from './Hooks/lifeCycleHook';
+import ClassLifetime from './sampleProblems/classLifetime';
 
 const name1=['ashkar','shameem','ajnas','rahel']
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -40,6 +41,7 @@ root.render(
 
       {/* <Form/> */}
       <App/>
+      {/* <ClassLifetime/> */}
       {/* <LifeCycleHook/> */}
       
     </div>

@@ -7,11 +7,13 @@ import NavigateHook from './sampleProblems/navigateHook';
 import {BrowserRouter as Router,Switch, Route } from 'react-router-dom';
 import LifeCycleHook from './Hooks/lifeCycleHook';
 import { StrictMode } from 'react';
+import ClassLifetime from './sampleProblems/classLifetime';
 
 
 function App() {
   return (
     <StrictMode>
+      {/* <ClassLifetime/> */}
       <LifeCycleHook/>
     </StrictMode>
   // <Router>

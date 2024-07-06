@@ -9,6 +9,13 @@ import ClassConstructor from './sample/classConstructor';
 // import CounterFn from './sample/CounterFn';
 import CounterClass from './sample/CounterClass';
 import EffectSample from './sample/EffectSample';
+import Child from './dataPassing/Child';
+import Parent from './dataPassing/Parent';
+import SimpleProps from './propsExample/simpleProps';
+import PropsClass from './propsExample/propsClass';
+import Toggle from './stateExample/toggle';
+import CounterMultiple from './stateExample/counterMultiple';
+import DynamicList from './stateExample/dynamicList';
 
 const person={
     name:'ashkar',
@@ -22,13 +29,18 @@ root.render(
 
     <div>
             {/* <ProbsSample details={person} /> */}
-            <ClassConstructor/>
+            {/* <ClassConstructor/> */}
             {/* <Keys/> */}
             {/* <CounterFn/> */}
             {/* <CounterClass/> */}
             {/* <EffectSample/> */}
             {/* <App/> */}
-            
+            {/* <Parent/> */}
+            {/* <SimpleProps/>
+            <PropsClass/> */}
+            <Toggle/>
+            <CounterMultiple/>
+            <DynamicList/>
     </div>
   
 );
