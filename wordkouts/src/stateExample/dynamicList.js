@@ -25,6 +25,7 @@ export default function DynamicList() {
                     <ul>
                         <li key={ind}>{obj.text}
                             <button onClick={()=>setValues(values.filter((obj2)=>obj2!==obj))}>Delete</button>
+                            
                         </li>
                     </ul>
                 )

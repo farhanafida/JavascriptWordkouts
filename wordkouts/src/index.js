@@ -16,6 +16,9 @@ import PropsClass from './propsExample/propsClass';
 import Toggle from './stateExample/toggle';
 import CounterMultiple from './stateExample/counterMultiple';
 import DynamicList from './stateExample/dynamicList';
+import Timer from './timerApp/timer';
+import UseHook from './refExample/useHook';
+import RenderCount from './refExample/renderCount';
 
 const person={
     name:'ashkar',
@@ -41,6 +44,9 @@ root.render(
             <Toggle/>
             <CounterMultiple/>
             <DynamicList/>
+            <Timer/>
+            <UseHook/>
+            <RenderCount/>
     </div>
   
 );
