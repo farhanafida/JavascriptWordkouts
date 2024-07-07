@@ -1,32 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import ProbsSample from './sample/passing probs';
-import ClassConstructor from './sample/classConstructor';
-// import Keys from './sample/keys';
-// import CounterFn from './sample/CounterFn';
-import CounterClass from './sample/CounterClass';
-import EffectSample from './sample/EffectSample';
-import Child from './dataPassing/Child';
-import Parent from './dataPassing/Parent';
-import SimpleProps from './propsExample/simpleProps';
-import PropsClass from './propsExample/propsClass';
+// import ClassConstructor from './sample/classConstructor';
+// // import Keys from './sample/keys';
+// // import CounterFn from './sample/CounterFn';
+// import CounterClass from './sample/CounterClass';
+// import EffectSample from './sample/EffectSample';
+// import Child from './dataPassing/Child';
+// import Parent from './dataPassing/Parent';
+// import SimpleProps from './propsExample/simpleProps';
+// import PropsClass from './propsExample/propsClass';
 import Toggle from './stateExample/toggle';
 import CounterMultiple from './stateExample/counterMultiple';
 import DynamicList from './stateExample/dynamicList';
 import Timer from './timerApp/timer';
 import UseHook from './refExample/useHook';
 import RenderCount from './refExample/renderCount';
-
-const person={
-    name:'ashkar',
-    age:23,
-    place:'purakkad',
-    job:'software developer'
-}
-const user=true
+import FlashCard from './flashcard/flashCard';
+import Main from './contactList/main';
+import ClassTodo from './practice/classTodo';
+import FnTodo from './practice/fnTodo';
+// const person={
+//     name:'ashkar',
+//     age:23,
+//     place:'purakkad',
+//     job:'software developer'
+// }
+// const user=true
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
@@ -47,6 +50,10 @@ root.render(
             <Timer/>
             <UseHook/>
             <RenderCount/>
+            <FlashCard/>
+            <Main/>
+            <ClassTodo/>
+            <FnTodo/>
     </div>
   
 );
