@@ -23,6 +23,8 @@ import FlashCard from './flashcard/flashCard';
 import Main from './contactList/main';
 import ClassTodo from './practice/classTodo';
 import FnTodo from './practice/fnTodo';
+import App from './App';
+import UseReducerSample from './practice/useReducerSample';
 // const person={
 //     name:'ashkar',
 //     age:23,
@@ -54,6 +56,8 @@ root.render(
             <Main/>
             <ClassTodo/>
             <FnTodo/>
+            <App/>
+            <UseReducerSample/>
     </div>
   
 );
