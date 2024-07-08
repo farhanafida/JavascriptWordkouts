@@ -6,12 +6,19 @@ export default class ClassTodo extends Component {
 
     constructor(props) {
       super(props)
+
+      this.inputRef=React.createRef()
     
       this.state = {
          todo:'',
          todos:[],
       }
     }
+
+    componentDidMount(){
+      this.inputRef.current.focus();
+    }
+    
     handleButton=()=>{
         const{todos,todo}=this.state;
         this.setState({todos:[...todos,todo]})
@@ -26,7 +33,7 @@ export default class ClassTodo extends Component {
       <div>
         <h1>todoClass</h1>
 
-        <input type='text' onChange={(e)=>this.setState({todo:e.target.value})} value={todo}/>
+        <input type='text' onChange={(e)=>this.setState({todo:e.target.value})} value={todo} ref={this.inputRef} />
         <button onClick={()=>this.handleButton()}>add value</button>
 
         <>

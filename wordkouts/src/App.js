@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <ErrorBoundary><FnComp name='shameem'/></ErrorBoundary>
+      <ErrorBoundary><FnComp name='ashkar'/></ErrorBoundary>
       
     </div>
   );

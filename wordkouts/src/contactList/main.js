@@ -18,7 +18,7 @@ export default function Main() {
         }
         const existingNumber=details.find(obj=> obj.number===number.trim());
             if (existingNumber){
-                alert('Entered numbere already exist');
+                alert('Entered number already exist');
                 return;
             }
 

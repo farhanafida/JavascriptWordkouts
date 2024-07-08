@@ -11,15 +11,15 @@ export default class ErrorBoundary extends Component {
     }
     
 
-    static getDerivedStateFromProps(error){
+    static getDerivedStateFromError(error){
     
         return {hasError:true}
 
     }
 
-    // componentDidCatch(error,errorInfo){
-    //     console.error("Error caught by ErrorBoundary: ", error, errorInfo);
-    // }
+    componentDidCatch(error, errorInfo) {
+      console.error("Error caught by ErrorBoundary:", error, errorInfo);
+  }
 
   render() {
   

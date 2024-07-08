@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
@@ -25,6 +25,7 @@ import ClassTodo from './practice/classTodo';
 import FnTodo from './practice/fnTodo';
 import App from './App';
 import UseReducerSample from './practice/useReducerSample';
+import ClassLifecycle from './practice/classLifecycle';
 // const person={
 //     name:'ashkar',
 //     age:23,
@@ -58,6 +59,10 @@ root.render(
             <FnTodo/>
             <App/>
             <UseReducerSample/>
+            <StrictMode>
+            <ClassLifecycle/>
+            </StrictMode>
+            
     </div>
   
 );

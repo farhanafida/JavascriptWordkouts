@@ -1,6 +1,6 @@
 
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 export default function FnTodo() {
     const [name,setName]=useState('');
@@ -8,6 +8,13 @@ export default function FnTodo() {
     const [details,setDetails]=useState([]);
     const [id,setId]=useState(null);
     const [editText,setEditText]=useState('')
+
+    useEffect(()=>{
+      document.title='Todo app'
+    })
+    // useEffect(()=>{
+    //   console.log(`updated detail:${number}`)
+    // },[number])
 
     const handleButton=()=>{
         if (name.trim()==='')alert('Empty value not allowed');
