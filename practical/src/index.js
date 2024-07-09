@@ -5,12 +5,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Parent from './ctop/parent';
 import SyntheticEvent from './ctop/syntheticEvent';
+import UseCount from './hook/useCount';
+import ClassComponent from './sample/classComponent';
+import FunctionLifecycle from './sample/functionLifecycle';
+import ListOfValues from './sample/listOfValues';
 
+const name=['ashkar','ayisha','shameem',1]
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
   <Parent/>
   <SyntheticEvent/>
+  <UseCount/>
+  <React.StrictMode>
+      <ClassComponent/>
+      <FunctionLifecycle/>
+    </React.StrictMode>
+    <ListOfValues names={name}/>
   </div>
   
 );
