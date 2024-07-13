@@ -4,6 +4,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Usecallback from './callback/Usecallback';
 import UseMemo from './callback/UseMemo';
+import ContextProblem from './UseContext/ContextProblem';
+import UseReducer from './ReducerHook/useReducer';
+import UseReducerObject from './ReducerHook/UseReducerObject';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +14,13 @@ root.render(
     <Usecallback/>
 
     <UseMemo/>
-    
+
+    <ContextProblem/>
+
+    <UseReducer/>
+
+    <UseReducerObject/>
+
     </div>
 );
 
