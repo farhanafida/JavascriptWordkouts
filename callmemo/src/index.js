@@ -2,16 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Usecallback from './callback/Usecallback';
+// import Usecallback from './callback/Usecallback';
+// import UseMemo from './callback/UseMemo';
+// import ContextProblem from './UseContext/ContextProblem';
+// import UseReducer from './ReducerHook/useReducer';
+// import UseReducerObject from './ReducerHook/UseReducerObject';
+import App from './App';
+import Main from './workout/Main';
+import MamoWorkout from './workout/MamoWorkout';
 import UseMemo from './callback/UseMemo';
-import ContextProblem from './UseContext/ContextProblem';
-import UseReducer from './ReducerHook/useReducer';
-import UseReducerObject from './ReducerHook/UseReducerObject';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <div>
-    <Usecallback/>
+    {/* <Usecallback/>
 
     <UseMemo/>
 
@@ -19,7 +25,12 @@ root.render(
 
     <UseReducer/>
 
-    <UseReducerObject/>
+    <UseReducerObject/> */}
+    {/* <App/> */}
+    <Main/>
+    <MamoWorkout/>
+
+    {/* <Navigate/> */}
 
     </div>
 );

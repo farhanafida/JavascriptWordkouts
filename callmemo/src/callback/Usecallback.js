@@ -1,14 +1,20 @@
 
 
-import React,{useState,useCallback, memo} from 'react'
+import React,{useState,useCallback, memo} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 const Button=memo(({handleClick,children})=> {
+  const navigate=useNavigate();
+  const handleNavigate=()=>{
+      navigate('/useReducer');
+  }
     console.log(`rendering button `,children);
   return (
     <div>
+      <button onClick={handleNavigate}>Button Navigation</button>
 
         <button onClick={handleClick}>{children}</button>
 
