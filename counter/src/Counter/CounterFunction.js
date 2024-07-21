@@ -12,7 +12,7 @@ const reducer=(state,action)=>{
         case 'decrement':
             return {count:state.count-1}
         case 'reset':
-            return {count:initialVal.count}
+            return {count:initialVal.count} 
         case 'default':
             return {state}
     }

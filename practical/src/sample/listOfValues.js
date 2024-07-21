@@ -10,7 +10,7 @@ export default function ListOfValues(props) {
                 return(
                     <div>
                         <ul>
-                            <li key={ind}>{obj}</li>
+                            <li key={ind}>value:{obj}</li>
                         </ul>
 
                     </div>
